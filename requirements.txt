@@ -1,0 +1,19 @@
+# API and Web Framework
+flask>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Code Parsing
+tree-sitter==0.21.3
+tree-sitter-languages==1.10.2
+
+# Type Hints
+typing-extensions>=4.9.0
+
+# Development Tools
+pytest>=7.4.0  # for testing
+black>=23.12.0  # for code formatting
+flake8>=7.0.0  # for linting
+
+# Optional Dependencies
+ipython>=8.12.0  # for interactive debugging

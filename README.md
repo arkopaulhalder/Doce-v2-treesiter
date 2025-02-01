@@ -1,2 +1,3 @@
-# Doce-v2-treesiter
-Generating code documentation using gemini and treesitter
+# doce-llm-v2-treesitter
+
+Building the doce-ai llm model using treesiter lib.
