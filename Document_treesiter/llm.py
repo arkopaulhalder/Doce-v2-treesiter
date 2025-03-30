@@ -11,7 +11,7 @@ class LLM:
     def __init__(
         self,
         api_key: str = None,
-        model: str = "gemini-pro",
+        model: str = "gemini-2.0-flash",
         max_tokens: int = 1000,
         max_retries: int = 3,
         retry_delay: int = 1
@@ -20,7 +20,7 @@ class LLM:
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY not provided and not found in environment")
             
-        self.api_endpoint = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent"
+        self.api_endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
         self.model = model
         self.max_tokens = max_tokens
         self.max_retries = max_retries
